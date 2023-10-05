@@ -61,6 +61,11 @@
       color: white;
       font-family: 'DM Sans', sans-serif;
       font-size: 20px;
+      transition: all ease 0.5s;
+    }
+    
+    button:hover {
+      background-color: #653CBC;
     }
     
     .style {
@@ -68,9 +73,15 @@
     }
     
     .styled {
-      border: 0.5px solid gray;
       border-radius: 5px;
       padding: 5px;
+      color: white;
+      background-color: #8951ff;
+      text-decoration: none;
+    }
+    
+    i {
+      margin: 0 10px;
     }
   </style>
 </head>
@@ -78,7 +89,7 @@
 <body>
   
   <header>
-    <img src="aesir-profile.png" width="50%" height="50%">
+    <img src="aesir-profile.png" height="100px" loading="lazy" alt="avatar-profile">
     <h1>Aesir Creative</h1>
     <p>Nothing much here..</p>
     
@@ -126,6 +137,9 @@
           <br> <br>
           <i class="fa-brands fa-github"></i>
           <a href="https://github.com/AesirCreative" class="styled">Github</a>
+          <br> <br>
+          <i class="fa-brands fa-twitter"></i>
+          <a href="https://x.com/aesircreations" class="styled">Twitter</a>
         </div>
       </section>
       
